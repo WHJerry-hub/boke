@@ -29,6 +29,8 @@ All source code used to generate the results and figures in the paper are in the
 ```bash
 python main.py ./original_data/application_record.csv ./original_data/credit_record.csv processed_data.csv ./data_preprocess_result ./derived_dataset/balanced_data.csv ./smote_result ./over_sampling_result ./under_sampling_result
 ```
+For input command, the format should be: main.py [-h] [--target_column TARGET_COLUMN] [--random_state RANDOM_STATE] application_file credit_file output_file output_path balance_output_path output_path_smote output_path_over output_path_under.
+- application_file:
 
 ---
 
