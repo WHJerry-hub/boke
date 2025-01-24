@@ -60,4 +60,6 @@ There are important function .py file：<br>
 - `data_pipeline(application_file, credit_file, output_file, output_path)`: Call all the previous functions to implement the entire preprocessing process, which is convenient to call in the main.py file.
 
 **model_selection.py**:
-- `model_case_1(input_file)`: 
+- `model_case_1(input_file)`: The training set and test set were divided, and the cross check with fold of 3 was adopted to obtain the average score of the cross check and the accuracy of the test set.
+- `model_case_2(input_file, random_state=42, test_size=0.2, n_splits=3)`: Standardization is introduced based on case 1.
+- `model_case_3(input_file, random_state=42, test_size=0.2, n_splits=3)`: Based on case2, the best hyperparameters obtained by grid search are applied.
