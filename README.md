@@ -66,3 +66,4 @@ There are important function .py file：<br>
 
 ---
 ## **Output**
+By calling the main.py file in terminal and entering the corresponding instructions, the entire process of the project will be run. First, conduct data preprocessing, store processed_data.csv obtained after preprocessing in the corresponding folder, then obtain the balanced data subset, save it as balanced_data.csv and store it in the corresponding folder, and then give SMOTE, Over, smote, smote, smote, smote, smote, smote, smote, smote, smote, smote, smote, smote, smote. under sampling, the MLP model was selected (3 cases), and the sampled data set was placed on the MLP model for evaluation. The accuracy of each evaluation will be displayed in the terminal interface, and 4 images will be obtained at the same time (when the image pops up, remember to close the image to ensure the normal operation of the program). The overall running time was 14 min 32 seconds.
