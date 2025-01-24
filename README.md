@@ -63,3 +63,8 @@ There are important function .py file：<br>
 - `model_case_1(input_file)`: The training set and test set were divided, and the cross check with fold of 3 was adopted to obtain the average score of the cross check and the accuracy of the test set.
 - `model_case_2(input_file, random_state=42, test_size=0.2, n_splits=3)`: Standardization is introduced based on case 1.
 - `model_case_3(input_file, random_state=42, test_size=0.2, n_splits=3)`: Based on case2, the best hyperparameters obtained by grid search are applied.
+
+**grid_search.py**:
+- `cross_validate(model, X, y, cv=3)`: The data is divided into cv folds, and one fold is selected as the verification set each time, and the other folds are used as the training set to evaluate the performance of the model. By loop training the model and predicting on the verification set, the accuracy of each verification is calculated, and finally the average accuracy of all folds is returned as the overall performance indicator of the model.
+- `grid_search(model_class, param_grid, X, y, cv=3)`: Evaluate model performance using cross-validation by traversing all parameter combinations in the parameter grid to find the combination of parameters that gives the model the highest score. Returns the best parameter combination (best_params) and the corresponding highest cross-validation average score (best_score), and prints the score for each parameter combination.
+- `search_hyper(input_file, target_column='risk', split_ratio=0.8, random_state=42, cv=3)`:Call all the previous functions to implement the entire grid search process, which is convenient to call in the main.py file.
