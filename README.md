@@ -1,4 +1,4 @@
-# **Project Title**
+# **Credit Card Approval Prediction**
 
 A brief description of your project, its purpose, and what it accomplishes.
 
