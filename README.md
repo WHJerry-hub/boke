@@ -8,7 +8,7 @@ In this project, we downloaded relevant data about credit card from kaggle (http
 
 - [Overview](#overview)
 - [Software Implementation](#software-implementation)
-- [Requirements](#requirements)
+- [Functions](#functions)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
@@ -41,7 +41,7 @@ For input command, the format should be: main.py [-h] [--target_column TARGET_CO
 
 ---
 
-## **Requirements**
+## **Functions**
 
 This project requires the following dependencies:
 - `numpy`
