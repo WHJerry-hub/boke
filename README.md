@@ -20,7 +20,7 @@ In this project, we downloaded relevant data about credit card from kaggle (http
 
 ## **Overview**
 
-Provide a detailed explanation of the project, including its objectives and key functionalities.
+The entire code contains 9 different .py files, which are used for data preprocessing, creating subdata sets, model selection, grid search (model hyperparameter selection), oversampling, undersampling, SMOTE sampling, model evaluation. Finally, the whole project is implemented by calling functions in different .py files through the main.py file.
 
 ---
 
