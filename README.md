@@ -7,7 +7,7 @@ In this project, we downloaded relevant data about credit card from kaggle (http
 ## **Table of Contents**
 
 - [Overview](#overview)
-- [Features](#features)
+- [Software Implementation](#software implementation)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -24,7 +24,7 @@ The entire code contains 9 different .py files, which are used for data preproce
 
 ---
 
-## **Features**
+## **Software Implementation**
 
 - Feature 1: Brief description
 - Feature 2: Brief description
