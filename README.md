@@ -7,7 +7,7 @@ In this project, we downloaded relevant data about credit card from kaggle (http
 ## **Table of Contents**
 
 - [Overview](#overview)
-- [Software Implementation](#softwareimplementation)
+- [Software Implementation](#feature)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
