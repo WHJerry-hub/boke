@@ -50,7 +50,7 @@ This project requires the following dependencies:
 - `matplotlib`
 - `argparse`
 
-There are all function .py file：<br>
+There are important function .py file：<br>
 **data_preprocess.py**:
 - `load_application_data(file_path)`: Upload application dataset.
 - `load_credit_data(file_path)`: Upload credit dataset.
@@ -58,3 +58,6 @@ There are all function .py file：<br>
 - `plot_score_distribution(data, output_path)`: Draw the figure of 'Score Weighted Sum Distribution'.
 - `save_data(data, output_path, filename)`: save the data to the specified path.
 - `data_pipeline(application_file, credit_file, output_file, output_path)`: Call all the previous functions to implement the entire preprocessing process, which is convenient to call in the main.py file.
+
+**model_selection.py**:
+- `model_case_1(input_file)`: 
