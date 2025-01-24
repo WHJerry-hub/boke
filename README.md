@@ -30,7 +30,14 @@ All source code used to generate the results and figures in the paper are in the
 python main.py ./original_data/application_record.csv ./original_data/credit_record.csv processed_data.csv ./data_preprocess_result ./derived_dataset/balanced_data.csv ./smote_result ./over_sampling_result ./under_sampling_result
 ```
 For input command, the format should be: main.py [-h] [--target_column TARGET_COLUMN] [--random_state RANDOM_STATE] application_file credit_file output_file output_path balance_output_path output_path_smote output_path_over output_path_under.
-- application_file:
+- application_file: The application_record.csv file in the original_data folder is one of our original data.
+- credit_file: The credit_record.csv file in the original_data folder is one of our original data.
+- output_file: Save the preprocessed data as a new csv file 'processed_data.csv'.
+- output_path: Save the new 'processed_data.csv' in the folder 'data_preprocess_result'.
+- balance_output_path: Save the generated balancer data as 'balanced_data.csv' and store it in the 'derived_dataset' folder.
+- output_path_smote: Store SMOTE sampling results in the 'smote_result' folder.
+- output_path_over: Store Over sampling results in the 'over_sampling_result' folder.
+- output_path_under: Store Under sampling results in the 'under_sampling_result' folder.
 
 ---
 
