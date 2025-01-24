@@ -9,12 +9,7 @@ In this project, we downloaded relevant data about credit card from kaggle (http
 - [Overview](#overview)
 - [Software Implementation](#software-implementation)
 - [Functions](#functions)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
+- [Output](#output)
 
 ---
 
@@ -68,3 +63,6 @@ There are important function .py file：<br>
 - `cross_validate(model, X, y, cv=3)`: The data is divided into cv folds, and one fold is selected as the verification set each time, and the other folds are used as the training set to evaluate the performance of the model. By loop training the model and predicting on the verification set, the accuracy of each verification is calculated, and finally the average accuracy of all folds is returned as the overall performance indicator of the model.
 - `grid_search(model_class, param_grid, X, y, cv=3)`: Evaluate model performance using cross-validation by traversing all parameter combinations in the parameter grid to find the combination of parameters that gives the model the highest score. Returns the best parameter combination (best_params) and the corresponding highest cross-validation average score (best_score), and prints the score for each parameter combination.
 - `search_hyper(input_file, target_column='risk', split_ratio=0.8, random_state=42, cv=3)`:Call all the previous functions to implement the entire grid search process, which is convenient to call in the main.py file.
+
+---
+## **Output**
