@@ -25,7 +25,9 @@ The entire code contains 9 different .py files, which are used for data preproce
 ---
 
 ## **Software Implementation**
-All source code used to generate the results and figures in the paper are in the `INST0060Group0` folder.
+All source code used to generate the results and figures in the paper are in the `INST0060Group0` folder. The calculations and figure generation are all run inside `terminal` of the Python compiler. Take Visual Studio Code as an example, you need to open the folder in VS code, and open the terminal interface, input the following command:
+```bash
+conda env create
 - Feature 1: Brief description
 - Feature 2: Brief description
 - Feature 3: Brief description
